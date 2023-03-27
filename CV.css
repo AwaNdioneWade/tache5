@@ -1,0 +1,690 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* ------------------------------------SECTION1------------------------------------ */
+.image{
+    background-image: url("fond.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+/* NAV BAR */
+.divbar{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+    background-color: #FFA804;
+}
+.h4div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 45px;
+}
+.divh1{
+    display: flex;
+    flex-direction: row;
+    grid-row: 1;
+    flex-basis: 300px;
+    color: white;
+}
+.divh1 i{
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+/* PROFIL */
+.profil{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    background-image: url(profil.jpg);
+    background-size: cover;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+/* INFORMATION PERSONNEL */
+.info{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+.info h2{
+    color: #FFA804;
+}
+
+.maj{
+    font-weight: bold;
+    font-size: 16px;
+}
+p{
+    font-size: 18px;
+}
+.ph4{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/* RESEAU SOCIAUX */
+.reseau{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon{
+    border-radius: 100%;
+    background: gainsboro;
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+}
+.icon i{
+    margin-top: 10px;
+}
+
+
+/* ------------------------------------SECTION2------------------------------------ */
+
+
+.divsection2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 14em;
+}
+.bar{
+    width: 4em;
+    height: 1em;
+    background: #FFA804;
+    border-radius: 10px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black; 
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: -3em;
+
+}
+.portfoliowork{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-left: 10%;
+}
+
+
+
+/* ------------------------------------SECTION3 GALERIE PHOTO------------------------------------ */
+.photos{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 190px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.photos .photo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+    height: 300px;
+    margin-top: 3px;
+    background-color: black;
+}
+.photo:nth-of-type(2), .photo:nth-of-type(8), .photo:nth-of-type(11){
+    position: relative;
+    display: flex;
+    height: 600px;
+}
+.photo:nth-of-type(4), .photo:nth-of-type(5), .photo:nth-of-type(9), .photo:nth-of-type(10){
+    position: relative;
+    display: flex;
+    width: 16.2%;
+}
+.photo:nth-of-type(4), .photo:nth-of-type(5), .photo:nth-of-type(8), .photo:nth-of-type(7), .photo:nth-of-type(11){
+    position: relative;
+    top: -18.5em;
+}
+.photo:nth-of-type(1){
+    background-image: url(1.png);
+    background-size: cover;
+}
+.photo:nth-of-type(2){
+    background-image: url(2.png);
+    background-size: cover;
+}
+.photo:nth-of-type(3){
+    background-image: url(3.png);
+    background-size: cover;
+}
+.photo:nth-of-type(4){
+    background-image: url(4.png);
+    background-size: cover;
+}
+.photo:nth-of-type(5){
+    background-image: url(5.png);
+    background-size: cover;
+}
+.photo:nth-of-type(6){
+    background-image: url(8.png);
+    background-size: cover;
+}
+.photo:nth-of-type(7){
+    background-image: url(6.png);
+    background-size: cover;
+}
+.photo:nth-of-type(8){
+        background-image: url(7.png);
+    background-size: cover;
+}
+.photo:nth-of-type(9){
+    background-image: url(10.png);
+    background-size: cover;
+}
+.photo:nth-of-type(10){
+     background-image: url(11.png);
+    background-size: cover;
+}
+.photo:nth-of-type(11){
+    background-image: url(9.png);
+    background-size: cover;
+}
+
+
+
+/* ------------------------------------SECTION4------------------------------------ */
+
+.section4{
+    width: 90%;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    margin-left: 10%;
+}
+.about p{
+    opacity: 0.5;
+}
+/* 
+.divabout1{
+    display: flex;
+    flex-direction: column;
+}
+.divabout2{
+    display: flex;
+    flex-direction: row;
+} */
+
+
+/* SECTION4 CERCLE*/
+
+
+.box, .pourcentage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+.box, .pourcentage, .rond{
+    padding: 15px;
+}
+svg{
+    height: 200px;
+    width: 200px;
+}
+.circle1 circle{
+    fill: none;
+    stroke: #FFA804;
+    stroke-width: 5px;
+    stroke-linecap: round;
+    transform: translate(9px, 9px);
+    stroke-dasharray:440;
+    stroke-dashoffset:440;
+}
+.circle1 circle:nth-child(1){
+    stroke: #7e7e7d;
+    stroke-width: 2px;
+    stroke-dashoffset:500;
+}
+.circle1 circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+@keyframes circle{
+    to{
+        stroke-dashoffset: 30;
+    }
+}
+
+.circle2 circle{
+    fill: none;
+    stroke: #FFA804;
+    stroke-width: 5px;
+    stroke-linecap: round;
+    transform: translate(9px, 9px);
+    stroke-dasharray:440;
+    stroke-dashoffset:440;
+}
+.circle2 circle:nth-child(1){
+    stroke: #7e7e7d;
+    stroke-width: 2px;
+    stroke-dashoffset:500;
+}
+.circle2 circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+@keyframes circle2{
+    to{
+        stroke-dashoffset: 100;
+    }
+}
+
+.circle3 circle{
+    fill: none;
+    stroke: #FFA804;
+    stroke-width: 5px;
+    stroke-linecap: round;
+    transform: translate(9px, 9px);
+    stroke-dasharray:440;
+    stroke-dashoffset:440;
+}
+.circle3 circle:nth-child(1){
+    stroke: #7e7e7d;
+    stroke-width: 2px;
+    stroke-dashoffset:500;
+}
+.circle3 circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+@keyframes circle3{
+    to{
+        stroke-dashoffset: 180;
+    }
+}
+
+.circle4 circle{
+    fill: none;
+    stroke: #FFA804;
+    stroke-width: 5px;
+    stroke-linecap: round;
+    transform: translate(9px, 9px);
+    stroke-dasharray:440;
+    stroke-dashoffset:440;
+}
+.circle4 circle:nth-child(1){
+    stroke: #7e7e7d;
+    stroke-width: 2px;
+    stroke-dashoffset:500;
+}
+.circle4 circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+@keyframes circle4{
+    to{
+        stroke-dashoffset: 100;
+    }
+}
+
+.pourcent{
+    font-size: 2em;
+    position: relative;
+    margin-left: 80px;
+    top: -130px;
+}
+.module1{
+    opacity: 0.5;
+    position: relative;
+    left: 50px;
+    top: -150px;
+}
+.module2{
+    opacity: 0.5;
+    position: relative;
+    left: 90px;
+    top: -150px;
+}
+
+
+
+
+
+/* ------------------------------------SECTION6------------------------------------ */
+.section6{
+    display: flex;
+    flex-direction: row;
+    background-color: #28023D;
+    color: white;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+.experience{ 
+    width: 100%;
+    position: relative;
+    top: 50px;
+    margin-left: 10%;
+}
+.contenu h3, .divexperience1 h3{
+    color: #FFA804;
+} 
+.contenu h5{
+    opacity: 0.5;
+} 
+ul{
+    font-size: 18px;
+}
+
+
+
+.education{
+    margin-left: 10%;
+}
+
+
+/* ------------------------------------SECTION7 TIMELINE------------------------------------ */
+.timeline-master, .timeline-course, .timeline-graduated{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.timeline-master::after, .timeline-course::after, .timeline-graduated::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 220px;
+    background-color: #7e7e7d;
+    transform: translate(-50%);
+    margin-left: 80px;
+}
+
+.timeline-status{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #FFA804;
+    margin-left: 60px;
+    position: absolute;
+    margin-top: -265px;
+}
+
+
+.timeline-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: -55px;
+}
+
+
+.section7{
+    display: flex;
+    flex-direction: row;
+    margin: 8em 0px;
+}
+.section7 span{
+    opacity: 0.5;
+}
+.education h4{
+    opacity: 0.5;
+}
+.section7 h4{
+    color: #FFA804;
+}
+
+
+
+/* ------------------------------------SECTION8------------------------------------ */
+.section8{
+    background-image: url("nuage.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.divsection8{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.divsection8 h2{
+    font-size: 45px;
+}
+
+
+/* ------------------------------------SECTION9------------------------------------ */
+.section9{
+    display: flex;
+    background-color: #28023D;
+    height: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.section9 p{
+    opacity: 0.5;
+}
+
+
+
+@media screen and (max-width: 1000px){
+
+
+    /* ------------------------------------SECTION1------------------------------------ */
+
+    .image{
+        height: 900px;
+    }
+
+    .divbar h4{
+        font-size: 35px;
+    }
+
+    .divh1 i{
+        font-size: 55px;
+        margin-top: 120px;
+    }    
+
+    
+    nav{
+        display: flex;
+        justify-content: left;
+        gap: 10px;
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+    .maj{
+        font-weight: bold;
+        font-size: 26px;
+    }
+    p{
+        font-size: 32px;
+    }
+
+    .info{
+        font-size: 26px;
+    }
+    
+    /* ------------------------------------SECTION2------------------------------------ */
+
+
+    nav a{
+        font-size: 30px;
+    }
+    .section2 h3{
+        font-size: 32px;
+    }
+    .section2{
+        margin-left: -6em;
+    }
+
+    .portfoliowork{
+        margin-top: 35em;
+    }
+
+    /* ------------------------------------SECTION3------------------------------------ */
+
+    .photos .photo{
+        width: 100%;
+    }
+
+    .photo:nth-of-type(2), .photo:nth-of-type(8), .photo:nth-of-type(11){
+        height: 1200px;
+    }
+    .photo:nth-of-type(1), .photo:nth-of-type(3), .photo:nth-of-type(6), .photo:nth-of-type(7){
+        height: 800px;
+    }
+    .photo:nth-of-type(4), .photo:nth-of-type(5), .photo:nth-of-type(9), .photo:nth-of-type(10){
+        height: 800px;
+        width: 50%;
+    }
+    .photo:nth-of-type(8){
+        background-image: url(7.png);
+    background-size: cover;
+}
+    
+    .photo:nth-of-type(4), .photo:nth-of-type(5), .photo:nth-of-type(8), .photo:nth-of-type(7), .photo:nth-of-type(11){
+        position: relative;
+        top: 0em;
+    } 
+
+
+    /* ------------------------------------SECTION4------------------------------------ */
+
+    .section4{
+        font-size: 26px;
+    }
+    .divabout1{
+        font-size: 30px;
+    }
+    
+    
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+        margin-left: 0;
+        font-size: 30px;
+        margin-top: 20em;
+    }
+
+    
+    
+    .box, .pourcentage{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .pourcent{
+        font-size: 1.5em;
+        position: relative;
+        margin-left: -140px;
+        top: -90px;
+    }
+    .module1{
+        position: relative;
+        left: 20px;
+        top: -120px;
+    }
+    .module2{
+        position: relative;
+        left: 60px;
+        top: -120px;
+    }
+    /* ------------------------------------SECTION6------------------------------------ */
+
+    .section6{
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .experience{
+        font-size: 30px;
+    }
+    .experience{ 
+        margin-left: 0;
+    }
+
+    /* ------------------------------------SECTION7------------------------------------ */
+
+    .section7{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    .education{
+        margin-left: 0;
+        font-size: 30px;
+    }
+
+    .timeline-master::after, .timeline-course::after, .timeline-graduated::after{
+        width: 0;
+        height: 0;
+    }
+    
+    .timeline-status{
+        height: 0;
+        width: 0;
+    } 
+
+    .timeline-content{
+        margin-left: 0;
+    }
+
+
+
+    .section8{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+
+
+    /* ------------------------------------SECTION9------------------------------------ */
+
+    .section9{
+        height: 150px;
+        text-align: center;
+    }
+}
